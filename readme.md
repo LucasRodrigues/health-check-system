@@ -1,5 +1,8 @@
 # Health Check System
 
+## CI
+[![Circle CI](https://circleci.com/gh/LucasRodrigues/health-check-system.svg?style=svg)](https://circleci.com/gh/LucasRodrigues/health-check-system)
+
 ## Install
 
 npm install health-check-system
