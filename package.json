@@ -1,6 +1,6 @@
 {
   "name": "health-check-system",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/LucasRodrigues/health-check-system.git"
@@ -13,7 +13,8 @@
   },
   "scripts": {
     "build": "gulp BUILD",
-    "style": "eslint ./src/*.js --fix"
+    "style": "eslint ./src/*.js --fix",
+    "prepublish": "npm run build"
   },
   "main": "./index.js",
   "keywords": [
