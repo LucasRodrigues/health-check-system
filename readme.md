@@ -5,9 +5,12 @@
 
 ## Install
 
+´´´
 npm install health-check-system
+´´´
 
 ## Usage
+´´´
 var healthCheckSystem = require('health-check-system');
 
 healthCheckSystem.do({
@@ -28,3 +31,4 @@ healthCheckSystem.do({
 .catch(error =>{
   console.log(error);
 });
+´´´
