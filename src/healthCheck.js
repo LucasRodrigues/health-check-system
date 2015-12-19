@@ -3,7 +3,7 @@ import HealthCheckTypes from './healthCheckTypes';
 
 export default class HealthCheck {
 
-  do(configuration) {
+  static do(configuration) {
     return new Promise((resolve, rejected) => {
       HealthCheckTypes.do(configuration)
         .then(results => {

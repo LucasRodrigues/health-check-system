@@ -2,10 +2,9 @@
   "name": "health-check-system",
   "version": "0.0.1",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/LucasRodrigues/health-check-system.git"
+    "type": "git",
+    "url": "https://github.com/LucasRodrigues/health-check-system.git"
   },
-  "version": "0.0.2",
   "license": "MIT",
   "author": {
     "name": "Lucas Rodrigues",
