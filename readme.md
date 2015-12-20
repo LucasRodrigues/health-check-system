@@ -41,6 +41,32 @@ healthCheckSystem.do(configuration)
     })
 ```
 
+## Json Format
+
+```
+{
+    redis: [
+        // For object format visit (https://github.com/LucasRodrigues/health-check-redis)
+    ],
+    mongodb: [
+        // For object format visit (https://github.com/LucasRodrigues/health-check-mongodb)
+    ],
+    elasticSearch: [
+        // For object format visit (https://github.com/LucasRodrigues/health-check-elastic-search)
+    ],
+    mssql: [
+        // For object format visit (https://github.com/LucasRodrigues/health-check-mssql)
+    ],
+    mysql: [
+        // For object format visit (https://github.com/LucasRodrigues/health-check-mysql)
+    ],
+    rabbitMq: [
+        // For object format visit (https://github.com/LucasRodrigues/health-check-rabbitmq)
+    ]
+}
+```
+
+
 ## Client
 
 ### Command line
