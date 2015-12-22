@@ -4,6 +4,7 @@ import healthCheckMssql from 'health-check-mssql';
 import healthCheckMysql from 'health-check-mysql';
 import healthCheckRabbitMq from 'health-check-rabbitmq';
 import healthCheckRedis from 'health-check-redis';
+import healthCheckApi from 'health-check-api';
 
 const healthCheckType = {
   elasticSearch: healthCheckElasticSearch,
@@ -11,7 +12,8 @@ const healthCheckType = {
   mssql: healthCheckMssql,
   mysql: healthCheckMysql,
   rabbitMq: healthCheckRabbitMq,
-  redis: healthCheckRedis
+  redis: healthCheckRedis,
+  api: healthCheckApi
 };
 
 export default class Factory {
