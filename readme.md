@@ -18,6 +18,7 @@ $ npm install health-check-system
 - Mysql (https://github.com/LucasRodrigues/health-check-mysql)
 - RabbitMq (https://github.com/LucasRodrigues/health-check-rabbitmq)
 - ElasticSearch (https://github.com/LucasRodrigues/health-check-elastic-search)
+- Api (https://github.com/LucasRodrigues/health-check-api)
 
 ## Usage
 
@@ -63,6 +64,9 @@ healthCheckSystem.do(configuration)
     ],
     rabbitMq: [
         // For object format visit (https://github.com/LucasRodrigues/health-check-rabbitmq)
+    ],
+    api: [
+     // For object format visit (https://github.com/LucasRodrigues/health-check-api)
     ]
 }
 ```
