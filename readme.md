@@ -1,6 +1,7 @@
 # Health Check System
 
 ## CI
+
 [![Circle CI](https://circleci.com/gh/LucasRodrigues/health-check-system.svg?style=svg)](https://circleci.com/gh/LucasRodrigues/health-check-system)
 
 ## Install
@@ -20,7 +21,7 @@ $ npm install health-check-system
 
 ## Usage
 
-```
+```js
 var healthCheckSystem = require('health-check-system');
 
 var configuration = {
@@ -43,7 +44,7 @@ healthCheckSystem.do(configuration)
 
 ## Json Format
 
-```
+```json
 {
     redis: [
         // For object format visit (https://github.com/LucasRodrigues/health-check-redis)
